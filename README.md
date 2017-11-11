@@ -27,6 +27,10 @@ Now go to this directory:
 ```
 cd /mnt/USB_stick
 ```
+We need to give a permission to execute this file:
+```
+chmod +x arch-install-script.sh
+```
 The last thing you need to do is execute Arch Install Script. You can do it with this command:
 ```
 ./arch-install-script.sh
