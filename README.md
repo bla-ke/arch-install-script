@@ -37,7 +37,7 @@ I don't give you any warranty: you use this script on you own. Remember that it'
 
 ## Languages
 Available lanugages:
-- English (en)
+- `English (en)`
 
 Soon available:
-- Polski (pl)
+- `Polski (pl)`
