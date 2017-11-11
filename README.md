@@ -27,6 +27,15 @@ Now go to this directory:
 ```
 cd /mnt/USB_stick
 ```
+And copy `arch-install-script.sh` to /mnt
+```
+cp arch-linux-install.sh /mnt
+```
+Before we start everything, it's recommended to umount this device and remove created earlier directory:
+```
+umount /mnt/USB_stick
+rm -r /mnt/USB_stick
+```
 We need to give a permission to execute this file:
 ```
 chmod +x arch-install-script.sh
