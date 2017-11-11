@@ -4,7 +4,7 @@ Arch Linux Install Script is a good alternative for beginners to install Arch Li
 ## How to get it?
 Unfortunately, I don't give you ISO file, so you need to download it manually and mount your USB stick to your computer with running Arch Linux LiveCD. It's an easy piece of cake, just try this solution:
 
-1. Execute fdisk command to check connected disks to your PC and recognize it:
+Execute fdisk command to check connected disks to your PC and recognize it:
 ```
 [blake@shinou ~]$ lsblk
 NAME             MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
