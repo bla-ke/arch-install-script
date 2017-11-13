@@ -17,8 +17,6 @@ select opt in "${options[@]}"
 do
     case $opt in
         "English (en)")
-        #!/bin/bash
-
         while :
         do
             clear
@@ -27,7 +25,6 @@ do
             Arch Linux Install Script's menu
             ------------------------------
             Please enter your choice:
-
             Load keymaps (1)
             Wi-Fi Configuration (2)
             Update the system clock (3)
@@ -49,11 +46,9 @@ do
             Install desktop enviroments (19)
             Logout and reboot (20)
                    (Q)uit
-
             Author: Daria Szatan (bla-ke)
             License: MIT License
             ------------------------------
-
 EOF
             read
             case "$REPLY" in
@@ -2029,6 +2024,11 @@ EOF
 
               reboot
 
+            else
+              echo ""
+
+            fi
+
             ;;
             "Q")
             echo ""
@@ -2063,46 +2063,26 @@ EOF
 
             ;;
           esac
+
         done
 
         ;;
-
         "Polski (pl)")
-        echo ""
         ;;
 
-        ;;
-        "Q")
+        "Quit")
         echo ""
-        echo "**************************************************"
-        echo "************************************************"
-        echo "******"
-        echo "****** Exiting..."
-        echo "******"
-        echo "************************************************"
-        echo "**************************************************"
+        echo "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        echo "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        echo "^^^^^^"
+        echo "^^^^^^ Exiting..."
+        echo "^^^^^^"
+        echo "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        echo "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
         echo ""
 
         sleep 1
 
         break
-
-        ;;
-        "q")
-        echo ""
-        echo "**************************************************"
-        echo "************************************************"
-        echo "******"
-        echo "****** Exiting..."
-        echo "******"
-        echo "************************************************"
-        echo "**************************************************"
-        echo ""
-
-        sleep 1
-
-        break
-
-        ;;
       esac
     done
